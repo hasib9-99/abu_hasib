@@ -1,5 +1,55 @@
+/* common style part start  */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Fira Code', monospace;
 }
+body{
+    background-color: #282C33;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+
+/* common style part end */
+
+
+/* navbhar part start  */
+#navbar{
+    position: sticky;
+    top: 0;
+}
+#navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0 8px 0;
+}
+.navbar__manu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__manu ul li{
+    padding: 0 16px;
+    color: #ABB2BF;
+}
+.navbar__manu ul li span{
+    color: #C778DD;
+    font-weight: 500;
+}
+.navbar__active{
+    font-weight: 600;
+}
+.aa{
+    height: 10000px;
+}
+/* navbhar part end */
