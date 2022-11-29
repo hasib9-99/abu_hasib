@@ -13,7 +13,7 @@ body{
 }
 a{
     text-decoration: none;
-    display: block;
+    display: inline-block;
 }
 ul{
     list-style: none;
@@ -23,15 +23,12 @@ ul{
 
 
 /* navbhar part start  */
-#navbar{
-    position: sticky;
-    top: 0;
-}
 #navbar nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 32px 0 8px 0;
+    margin-bottom: 62px;
 }
 .navbar__manu ul{
     display: flex;
@@ -53,3 +50,82 @@ ul{
     height: 10000px;
 }
 /* navbhar part end */
+
+
+/* banner part start */
+.banner__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.banner__left{
+    width: 50%;
+}
+.banner__left h2{
+    color: #fff;
+}
+.banner__left h2 span{
+    color: #C778DD;
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+}
+.banner__left h2 span::after{
+    position: absolute;
+    content: '';
+    height: 30px;
+    width: 4px;
+    background-color: #C778DD;
+    top: 4px;
+    right: -6px;
+    animation: bafar 1s infinite ;
+}
+/* blink animation part  */
+@keyframes bafar{
+    0%{
+        background-color: transparent;
+    }
+    50%{
+        background-color: #C778DD;
+
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+blinks 
+.banner__left p{
+    color: #ABB2BF;
+    width: 463px;
+    padding: 32px 0 24px 0;
+}
+.banner__left a{
+    color: #fff;
+    border: 1px solid #C778DD;
+    padding: 8px 16px;
+}
+.banner__left a:hover{
+    background-color: rgba(199, 120, 221, 0.2);
+}
+.banner__right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner__right p{
+    color: #ABB2BF;
+    border: 1px solid #ABB2BF;
+    width: 392px;
+    padding: 8px;
+}
+.banner__right p i{
+    color: #C778DD;
+}
+.banner__right p span{
+    color: white;
+}
+
+
+/* banner part end */
