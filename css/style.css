@@ -90,8 +90,8 @@ ul{
 }
 .banner__left h2 span{
     color: #C778DD;
-    font-size: 32px;
-    font-weight: 600;
+    /* font-size: 32px;
+    font-weight: 600; */
     position: relative;
 }
 .banner__left h2 span::after{
@@ -100,9 +100,9 @@ ul{
     height: 30px;
     width: 4px;
     background-color: #C778DD;
-    top: 4px;
-    right: -6px;
-    animation: bafar 1s infinite ;
+    top: -2px;
+    right: -7px;
+    animation: bafar 0.8s infinite ;
 }
 /* blink animation part  */
 @keyframes bafar{
@@ -149,6 +149,94 @@ ul{
 .banner__right p span{
     color: white;
 }
-
-
+.banner__bottom{
+    padding-top: 112px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    position: relative;
+    width: 712px;
+    margin: 0 auto;
+}
+.banner__bottom h3{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    padding: 32px;
+}
+.banner__bottom_text1{
+    text-align: center;
+    border: 1px solid #ABB2BF;
+}
+.banner__bottom_text2{
+    /* text-align: right; */
+    border-top: none;
+    width: 162px;
+    margin-left: 100%;
+    text-align: center;
+    transform: translate(-100%);
+    border: 1px solid #ABB2BF;
+    border-top: none;
+}
+.icon1 {
+    width: 25.47px;
+    position: absolute;
+    left: 13px;
+    transform:translate(13px, -50%);
+    background: #282C33;
+    padding: 8px;
+}
+.icon2 {
+    width: 25.47px;
+    position: absolute;
+    bottom: 0;
+    right: 13px;
+    transform: rotate(180deg) translate(13px, -50%);
+    background: #282C33;
+    padding: 8px;
+}
 /* banner part end */
+#project{
+    margin: 100px 0;
+}
+.project__hade{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.project__hade_left::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 511px;
+    background-color: #C778DD;
+    left: 50%;
+    top: 50%;
+    transform: translate(-64%, -50%);
+}
+.project__hade_left h3{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+}
+.project__hade_left h3 span{
+    color: #C778DD;
+}
+.project__hade_right a{
+    color: white;
+}
+
+/* project part start */
+
+
+
+
+
+
+
+
+
+
+
+
+/* project part end */
