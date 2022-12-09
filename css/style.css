@@ -197,7 +197,7 @@ ul{
 }
 /* banner part end */
 #project{
-    margin: 100px 0;
+    margin-top: 74px;
 }
 .project__hade{
     display: flex;
@@ -224,6 +224,53 @@ ul{
 }
 .project__hade_right a{
     color: white;
+}
+.project__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.project__card{
+    border: 1px solid #ABB2BF;
+    width: 330.58px;
+    height: 100%;
+}
+.project__card_titel{
+    font-size: 16px;
+    color:#ABB2BF;
+    border-bottom: 1px solid #ABB2BF;
+    padding: 8px 0;
+    line-height: 25px;
+    padding-left: 8px;
+}
+.project__card_hade{
+    color: white;
+    font-weight: 500;
+    width: 80%;
+}
+.project__card_ditels{
+    padding: 16px;
+}
+.project__card_ditels p{
+    color: #ABB2BF;
+    padding: 16px 0;
+    line-height: 21px;
+}
+.project__card_ditels .live_btn{
+    color: #fff;
+    border: 1px solid #C778DD;
+    padding: 8px 16px;
+}
+.project__card_ditels .live_btn:hover{
+    background-color: rgba(199, 120, 221, 0.2)
+}
+.project__card_ditels .cached_btn{
+    color: #ABB2BF;
+    border: 1px solid #ABB2BF;
+    padding: 8px 16px;
+}
+.project__card_ditels .cached_btn:hover{
+    background-color: rgba(171, 178, 191, 0.2)
 }
 
 /* project part start */
