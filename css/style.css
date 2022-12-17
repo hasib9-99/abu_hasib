@@ -29,6 +29,7 @@ ul{
     align-items: center;
     padding: 32px 0 8px 0;
     margin-bottom: 62px;
+    position: relative;
 }
 .navbar__manu ul{
     display: flex;
@@ -47,13 +48,12 @@ ul{
     font-weight: 600;
 }
 /* navbat icon part  */
-#navbar {
-    position: relative;
-}
 .navbar__icon{
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 120px;
+    left: 100px;
+    transform: translate(-100%);
+    
 }
 .navbar__icon_line{
     display: flex;
@@ -61,11 +61,12 @@ ul{
     align-items: center;
     justify-content: center;
 }
-.navbar__icon_line::after{
+.navbar__icon_line::before{
     content: "";
     width: 1px;
     height: 190px;
-    color: white;
+    background-color: white;
+    /* z-index: 1; */
 }
 .navbar__icon_line a{
     color: #ABB2BF;
