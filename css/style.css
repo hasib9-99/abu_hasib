@@ -197,6 +197,9 @@ ul{
     padding: 8px;
 }
 /* banner part end */
+
+
+/* project part start */
 #project{
     margin-top: 74px;
 }
@@ -274,17 +277,54 @@ ul{
     background-color: rgba(171, 178, 191, 0.2)
 }
 
-/* project part start */
-
-
-
-
-
-
-
-
-
-
-
-
 /* project part end */
+
+/* skills part start  */
+.skills__hade{
+    position: relative;
+    margin-top: 106px  ;
+}
+.skills__hade h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+.skills__hade h3 span{
+    color: #C778DD;
+}
+.skills__hade::before {
+    content: '';
+    width: 239px;
+    height: 1px;
+    background-color: #C778DD;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-100%);
+}
+.skills__main{
+    display: flex;
+    justify-content: first baseline;
+}
+/* .skills__main_img{
+    width: 349px;
+    height: 282px;
+} */
+.skills__main_cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.skills__card_hade{
+    border: 1px solid #ABB2BF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+    display: block;
+}
+.skllis__card_detels{
+    border: 1px solid #ABB2BF;
+    border-top: none;
+}
+/* skills part end  */
