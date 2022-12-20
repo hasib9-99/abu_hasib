@@ -347,3 +347,53 @@ ul{
     margin-top: 16px;
 }
 /* skills part end  */
+
+
+/* skills part start  */
+/* #about{
+    margin-bottom: 100px;
+} */
+.about__main{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+.about__hade    {
+    position: relative;
+    margin-bottom: 48px  ;
+}
+.about__hade h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+.about__hade h3 span{
+    color: #C778DD;
+}
+.about__hade::before {
+    content: '';
+    width: 326px;
+    height: 1px;
+    background-color: #C778DD;
+    top: 50%;
+    left: 100%;
+    position: absolute;
+    transform: translate(-100%);
+}
+.about__left{
+    width: 515px;
+}
+.about__left p{
+    color: #ABB2BF;
+}
+.about__left a{
+    color: #fff;
+    border: 1px solid #C778DD;
+    padding: 8px 16px;
+    margin-top: 27px;
+}
+.about__left a:hover{
+    background-color: rgba(199, 120, 221, 0.2);
+}
+
+/* skills part end  */
