@@ -399,9 +399,11 @@ ul{
 
 
 /* contacts part start  */
+#contact{
+    margin: 112px 0;
+}
 .contact__hade{
     position: relative;
-    margin-top: 112px  ;
 }
 .contact__hade h3{
     color: #fff;
@@ -440,12 +442,53 @@ ul{
 .contact__right h4{
     color: #ABB2BF;
     padding-bottom: 8px;
+    font-weight: 600;
 }
 .contact__right a{
     color: #ABB2BF;
     padding-top: 8px;
 }
-.contact__right i{
-    /* font-size: 24px; */
-}
 /* contacts part end  */
+
+/* footer part start  */
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0 48px 0;
+}
+.footer__left_logo {
+    display: flex;
+    align-items: center;
+}
+.footer__left_logo a{
+    padding-left: 32px;
+    color: #ABB2BF;
+}
+.footer__left_logo img{
+    width: 105px;
+}
+.footer__left p{
+    width: 476px;
+    color: #fff;
+    padding-top: 21px;
+}
+
+
+.footer__right h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+.footer__right a{
+    color: #ABB2BF;
+    font-size: 24px;
+    padding-right: 11px;
+}
+.copyright{
+    text-align: center;
+    color: #ABB2BF;
+    padding-bottom: 32px;
+}
+/* footer part end  */
+
