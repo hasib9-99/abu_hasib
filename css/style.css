@@ -358,7 +358,7 @@ ul{
     justify-content: space-between;
     /* align-items: flex-start; */
 }
-.about__hade    {
+.about__hade{
     position: relative;
     margin-bottom: 48px  ;
 }
@@ -395,5 +395,57 @@ ul{
 .about__left a:hover{
     background-color: rgba(199, 120, 221, 0.2);
 }
-
 /* skills part end  */
+
+
+/* contacts part start  */
+.contact__hade{
+    position: relative;
+    margin-top: 112px  ;
+}
+.contact__hade h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+.contact__hade h3 span{
+    color: #C778DD;
+}
+.contact__hade::before {
+    content: '';
+    width: 174px;
+    height: 1px;
+    background-color: #C778DD;
+    top: 50%;
+    left: 36%;
+    position: absolute;
+    transform: translate(-100%);
+}
+.contact__main{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+}
+.contact__left{
+    width: 505px;
+}
+.contact__left p{
+    color: #ABB2BF;
+}
+.contact__right{
+    width: 204px;
+    border: 1px solid #ABB2BF;
+    padding: 16px;
+}
+.contact__right h4{
+    color: #ABB2BF;
+    padding-bottom: 8px;
+}
+.contact__right a{
+    color: #ABB2BF;
+    padding-top: 8px;
+}
+.contact__right i{
+    /* font-size: 24px; */
+}
+/* contacts part end  */
