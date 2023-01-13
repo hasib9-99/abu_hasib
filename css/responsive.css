@@ -47,7 +47,7 @@
     .project__hade{
         align-items: center;
         justify-content: space-between;
-        padding: 0 10px;
+        padding: 0 15px;
     }
     .project__hade_left::after{
         width: 0;
@@ -58,16 +58,39 @@
         align-items: center;
     }
     .project__card{
-        margin: 15px auto;
+        margin: 25px auto;
     }
 
-/* ABOUT PART START  */
+/* SLILLS PART START  */
+    .skills__hade::before{
+        width: 0;
+        height: 0;        
+    }
+    .skills__hade{
+        margin-top: 50px;
+    }
+    .skills__hade h3{
+        padding: 0 15px;
+    }
+    .skills__main{
+        display: block;
+        margin-top: 25px;
+    }
+    .skills__main_img{
+        display: none;
+    }
+    .skills__main_cards{
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .skllis__card_top{
+        margin-top: 16px;
+    }
+    
 
     #about{
-        display: none;
-    }
-    #skills{
-        display: none;
+        /* display: none; */
     }
     #contact{
         display: none;
