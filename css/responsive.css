@@ -119,22 +119,35 @@
         align-items: center;
         margin-top: 40px;
     }
-
-
-
-
-
-
-
-
-
-
-
-    #contact{
-        display: none;
+/* Contact part start  */
+    .contact__hade::before{
+        width: 0;
     }
-    footer{
-        display: none;
+    .contact__hade{
+        padding: 0 15px;
+    }
+    .contact__main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__left{
+        width: auto;
+        text-align: center;
+    }
+    .contact__right{
+        margin-top: 25px;
+        width: 220px;
+    }
+    .footer_main{
+        flex-direction: column;
+        align-items: center;        
+    }
+    .footer__left p{
+        width: auto;
+        text-align: center;
+    }
+    .footer__left_logo{
+        justify-content: space-around;
     }
     
 
