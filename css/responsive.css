@@ -149,7 +149,10 @@
     .footer__left_logo{
         justify-content: space-around;
     }
-    
+    .footer__right{
+        text-align: center;
+        margin-top: 25px;
+    }
 
 }
 @media(min-width:768px) and (max-width:991.98px){
