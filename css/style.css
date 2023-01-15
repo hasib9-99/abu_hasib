@@ -438,7 +438,7 @@ ul{
     color: #ABB2BF;
 }
 .contact__right{
-    width: 204px;
+    width: 220px;
     border: 1px solid #ABB2BF;
     padding: 16px;
 }
@@ -475,7 +475,9 @@ ul{
     color: #fff;
     padding-top: 21px;
 }
-
+.footer__right{
+    text-align: center;
+}
 
 .footer__right h3{
     color: #fff;
