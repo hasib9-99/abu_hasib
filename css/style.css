@@ -40,6 +40,9 @@ ul{
     padding: 0 16px;
     color: #ABB2BF;
 }
+.navbar__manu ul li a{
+    color: #ABB2BF;
+}
 .navbar__manu ul li span{
     color: #C778DD;
     font-weight: 500;
