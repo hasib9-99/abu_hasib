@@ -289,15 +289,18 @@ ul{
 }
 .project__card:hover .card_scroll img {
     width: 100%; /* set the width of the image to 100% */
-    animation: scroll 15s infinite linear; /* set the animation properties */
+    animation: scroll 40s infinite linear; /* set the animation properties */
   }
   
   @keyframes scroll {
     0% {
       transform: translateY(0); /* start the animation with no translation */
     }
+    50% {
+      transform: translateY(-90%); /* end the animation with a full translation */
+    }
     100% {
-      transform: translateY(-100%); /* end the animation with a full translation */
+      transform: translateY(0%); /* end the animation with a full translation */
     }
   }
 /* project part end */
